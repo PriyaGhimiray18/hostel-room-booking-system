@@ -3,7 +3,7 @@
 import React, { Suspense } from 'react';
 import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import '@/styles/style.css';
+import styles from '@/styles/style.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function AvailableRoomContent() {

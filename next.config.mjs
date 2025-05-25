@@ -12,12 +12,6 @@ const nextConfig = {
       os: false,
     };
 
-    // Handle CSS imports
-    config.module.rules.push({
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader', 'postcss-loader'],
-    });
-
     return config;
   },
   // Disable font optimization temporarily
